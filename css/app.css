@@ -1,0 +1,142 @@
+/*général*/
+li {
+	list-style-type:	none;
+}
+
+h3 {
+	text-align:  		center;
+	margin-top:  		0;
+}
+
+.button {
+	padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+/*header*/
+#header {
+	padding: 		20px 0px;
+	border-bottom:  5px solid black;
+	text-align:  	center;
+}
+
+#header li {
+	width: 			13.8%;
+	display:		inline-block;
+}
+
+#header ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+#header li a i {
+	border-radius: 	5px;
+	text-align: 	center;
+	padding: 		10px;
+	width:			100%;
+	color:  		black;
+}
+
+
+#header li a.active i {
+	border: 		1px solid darkblue;
+	color: 			darkblue;
+}
+
+
+/*leftbar*/
+
+#leftbar {
+	margin-right:  	-0.9375rem;
+	border-left: 	5px solid black;
+}
+
+/*midbar*/
+#midbar {
+
+	margin-right:  	-0.9375rem;
+	margin-left:  	-0.9375rem;
+	border-left: 	5px solid black;
+}
+
+/*rightbar*/
+
+#rightbar {
+
+	margin-left:  	-0.9375rem;
+	border-left: 	5px solid black;
+	text-align: 	center;
+}
+
+#leftbar .user {
+	width:			100%;
+	text-align:		center;
+}
+
+/*allconcent*/
+.hiddencontent {
+	display:		 none;
+}
+
+
+
+div#carousel { 
+	perspective: 	1200px; 
+	background: 	#fff; 
+	padding-top: 	10%; 
+	font-size:		0; 
+	margin-bottom:	3rem; 
+	overflow: 		hidden; 
+}
+figure#spinner { 
+	transform-style: preserve-3d; 
+	height:			300px; 
+	transition: 	1s; 
+} 
+figure#spinner img { 
+	width: 			75%;
+	position: 		absolute;
+	left: 			15%;
+	outline:		1px solid transparent; 
+}
+
+div#carousel ~ span { 
+	color: 			#000; 
+	margin: 		5%; 
+	display: 		inline-block; 
+	text-decoration: none; 
+	font-size: 		2rem; 
+	transition:		0.6s color; 
+	position: 		relative; 
+	margin-top: 	-6rem; 
+	border-bottom: 	none; 
+	line-height: 	0;
+}
+
+div#carousel ~ span:hover {
+	color: 			#888;
+	cursor: 		pointer;
+}
+
+/*comunity*/
+.comunity_title {
+	border-bottom:  3px solid black;
+}
+
+.comunity_title.active {
+	background-color: lightblue;
+}
+
+.left{
+	padding-right:  0;
+}
+
+.right{
+	padding-left:  	0;	
+}
+
+.groupe_filter .active {
+	background-color: lightblue;
+}

@@ -1,14 +1,251 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    Hello World
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
 
-    <script> require('./index.js')</script>
+<head>
+	<meta charset="utf-8">
+	<!-- If you delete this meta tag World War Z will become a reality -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nyxo</title>
 
-    </script>
-  </body>
+	<!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/app.css">
+
+	<script src="./js/vendor/modernizr.js"></script>
+
+</head>
+<body>
+
+
+	<div id="header">
+		<div class="row">
+			<ul>
+				<li>
+					<a href="#film" class="menu-action">
+						<i class="fa fa-film fa-5x"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#music"class="menu-action">
+						<i class="fa fa-music fa-5x"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#comunity"class="menu-action">
+						<i class="fa fa-smile-o fa-5x"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#home"class="menu-action active">
+						<i class="fa fa-home fa-5x"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#pictures"class="menu-action">
+						<i class="fa fa-camera fa-5x"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#idk"class="menu-action">
+						<i class="fa fa-lemon-o fa-5x"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#settings" class="menu-action">
+						<i class="fa fa-cog fa-5x"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div id="content">
+		<div class="row">
+			<div class="columns large-3">
+				<div id="leftbar">
+				</div>
+			</div>
+
+			<div class="columns large-7">
+				<div id="midbar">
+				</div>
+			</div>
+
+			<div class="columns large-2">
+				<div id="rightbar">
+					<div class="user">
+						<i class="fa fa-user fa-5x"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="hiddencontent">
+		<div id="film">
+			<div class="leftbar">
+				<ul class="movie_filter">
+					<li data-type="horor" class="active">
+						Horror movies
+					</li>
+					<li data-type="comedy">
+						Comedy movies
+					</li>
+					<li data-type="scifi">
+						Sci-fi movies
+					</li>
+					<li data-type="fantazy">
+						Fantazy movies
+					</li>
+					<li data-type="tv">
+						TV movies
+					</li>
+				</ul>
+			</div>
+			<div class="midbar">
+			<h3 id="titre_film">titre film</h3>
+				<div id=carousel>
+					<figure id=spinner>
+						<img src="./image/3.jpg" alt='titre1' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre2' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre3' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre4' data-type="horor"/>
+						<img src="./image/3.jpg" alt='titre5' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre6' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre7' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre8' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre2' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre3' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre4' data-type="horor"/>
+						<img src="./image/3.jpg" alt='titre5' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre6' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre7' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre8' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre2' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre3' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre4' data-type="horor"/>
+						<img src="./image/3.jpg" alt='titre5' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre6' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre7' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre8' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre2' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre3' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre4' data-type="horor"/>
+						<img src="./image/3.jpg" alt='titre5' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre6' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre7' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre8' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre2' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre3' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre4' data-type="horor"/>
+						<img src="./image/3.jpg" alt='titre5' data-type="horor"/>
+						<img src="./image/4.jpg" alt='titre6' data-type="horor"/>
+						<img src="./image/5.jpg" alt='titre7' data-type="horor"/>
+						<img src="./image/6.jpg" alt='titre8' data-type="horor"/>
+					</figure>
+				</div>
+				<span style=float:left class=ss-icon onclick="galleryspin('-')">&lt;</span>
+				<span style=float:right class=ss-icon onclick="galleryspin('')">&gt;</span>
+			</div>
+		</div>
+		<div id="music">
+			<div class="leftbar">
+				leftbar for music
+			</div>
+			<div class="midbar">
+				content for music
+			</div>
+		</div>
+		<div id="comunity">
+			<div class="leftbar">
+				<ul class="groupe_filter">
+					<li data-type="gp_1" class="active">
+						Group One
+					</li>
+					<li data-type="gp_2">
+						Group Two
+					</li>
+					<li data-type="gp_3">
+						Group Three
+					</li>
+				</ul>
+			</div>
+			<div class="midbar">
+				<div class="row">
+					<div class="column large-6 left">
+						<h3 class="comunity_title active">Groupe</h3>
+					</div>
+					<div class="column large-6 right">
+						<h3 class="comunity_title">Contacts</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column large-2 left">
+						<img src="./image/6.jpg"/>
+					</div>
+					<div class="column large-3">
+						<div>Groupe name</div>
+						<div>Groupe Type</div>
+					</div>
+					<div class="column large-2">
+						<div class="button">Join</div>
+						<div class="button">Quit</div>
+					</div>
+					<div class="column large-5">
+					copains
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="home">
+			<div class="leftbar">
+				leftbar for home
+			</div>
+			<div class="midbar">
+				content for home
+			</div>
+		</div>
+		<div id="pictures">
+			<div class="leftbar">
+				leftbar for pictures
+			</div>
+			<div class="midbar">
+				content for pictures
+			</div>
+		</div>
+		<div id="idk">
+			<div class="leftbar">
+				leftbar for idk
+			</div>
+			<div class="midbar">
+				content for idk
+			</div>
+		</div>
+		<div id="settings">
+			<div class="leftbar">
+				leftbar for settings
+			</div>
+			<div class="midbar">
+				content for settings
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/vendor/jquery.js"></script>
+	<script src="./js/foundation.min.js"></script>
+	<script src="./js/app.js"></script>
+
+	<script>
+
+	jQuery(document).ready(function () {
+		alert('jQuery ready');
+		$(document).foundation();
+	});
+	</script>
+</body>
 </html>
