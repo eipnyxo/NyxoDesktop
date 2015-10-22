@@ -1,0 +1,32 @@
+@import "variables";
+
+html, body {
+  background: #333;
+}
+
+a, i {
+  color: white;
+}
+
+#header {
+  background-color: darken(#333, 10%);
+
+  li a.active i {
+    color: darken($flat-red-1, 20%) !important;
+    border-color: darken($flat-red-1, 20%) !important;
+  }
+
+  li a {
+    @include transition(all, 0.2s, ease-in-out);
+
+    i {
+      color: white;
+    }
+
+    &:hover i {
+      background-color: $flat-red-2;
+      @include transition(all, 0.2s, ease-in-out);
+    }
+  }
+}
+

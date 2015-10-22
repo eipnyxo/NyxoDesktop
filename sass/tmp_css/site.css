@@ -1,0 +1,20 @@
+html, body {
+  background: #333; }
+
+a, i {
+  color: white; }
+
+#header {
+  background-color: #1a1a1a; }
+  #header li a.active i {
+    color: #a82315 !important;
+    border-color: #a82315 !important; }
+  #header li a {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    #header li a i {
+      color: white; }
+    #header li a:hover i {
+      background-color: #C0392B;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }

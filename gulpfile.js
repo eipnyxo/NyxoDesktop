@@ -15,7 +15,7 @@ gulp.task('styles', function() {
         .pipe(sass({ style: 'expanded' }))
         .on('error', swallowError)
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
-        .pipe(gulp.dest('./sass/css'))
+        .pipe(gulp.dest('./sass/tmp_css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
         .pipe(livereload())
