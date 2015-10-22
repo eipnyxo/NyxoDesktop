@@ -237,15 +237,14 @@
 	</div>
 
 	<script src="./js/vendor/jquery.js"></script>
-	<script src="./js/foundation.min.js"></script>
+	<script defer src="./js/foundation.min.js"></script>
 	<script src="./js/app.js"></script>
 
 	<script>
-
-	jQuery(document).ready(function () {
-		alert('jQuery ready');
-		$(document).foundation();
-	});
+		$(function () {
+			//alert('jQuery ready');
+			$(document).foundation();
+		});
 	</script>
 </body>
 </html>

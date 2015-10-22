@@ -6,8 +6,8 @@ require('electron-debug')();
 
 app.on('ready', function() {
     var mainWindow = new BrowserWindows({
-      windth: 800,
-      height: 600
+      width: 1080,
+      height: 900
     })
     mainWindow.loadUrl("file://" + __dirname + '/index.html')
 
