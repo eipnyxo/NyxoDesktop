@@ -2,7 +2,7 @@ var app = require('app')
 var BrowserWindows = require('browser-window')
 var ipc = require('ipc')
 
-require('electron-debug')();
+//require('electron-debug')();
 
 app.on('ready', function() {
     var mainWindow = new BrowserWindows({
@@ -10,7 +10,7 @@ app.on('ready', function() {
       height: 900
     })
     mainWindow.loadUrl("file://" + __dirname + '/index.html')
-
+    mainWindow.setMenu(null);
     var prefsWindow = new BrowserWindows({
       width: 400,
       height: 400,
