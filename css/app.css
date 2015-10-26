@@ -1,4 +1,7 @@
 /*général*/
+body {
+	color: 			#FFF;
+}
 li {
 	list-style-type:	none;
 }
@@ -8,11 +11,22 @@ h3 {
 	margin-top:  		0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	color:  			#FFF;
+}
+
+ul {
+	margin-left:  		0;
+
+}
 .button {
 	padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
+
+
+
 /*header*/
 #header {
 	padding: 		20px 0px;
@@ -45,29 +59,34 @@ h3 {
 	color: 			darkblue;
 }
 
+/*content*/
 
+#content {
+	border-bottom:  5px solid black;
+}
 /*leftbar*/
 
 #leftbar {
 	margin-right:  	-0.9375rem;
 	border-left: 	5px solid black;
+	height:  		100%;
 }
 
 /*midbar*/
 #midbar {
-
 	margin-right:  	-0.9375rem;
 	margin-left:  	-0.9375rem;
 	border-left: 	5px solid black;
+	height:  		100%;
 }
 
 /*rightbar*/
 
 #rightbar {
-
 	margin-left:  	-0.9375rem;
 	border-left: 	5px solid black;
 	text-align: 	center;
+	height:  		100%;
 }
 
 #leftbar .user {
@@ -80,21 +99,20 @@ h3 {
 	display:		 none;
 }
 
-
-
 div#carousel { 
-	perspective: 	1200px; 
-	background: 	#fff; 
+	perspective: 	1200px;
 	padding-top: 	10%; 
 	font-size:		0; 
 	margin-bottom:	3rem; 
 	overflow: 		hidden; 
 }
+
 figure#spinner { 
 	transform-style: preserve-3d; 
 	height:			300px; 
 	transition: 	1s; 
-} 
+}
+
 figure#spinner img { 
 	width: 			75%;
 	position: 		absolute;
@@ -127,6 +145,7 @@ div#carousel ~ span:hover {
 
 .comunity_title.active {
 	background-color: lightblue;
+	color:  		#000;
 }
 
 .left{
@@ -139,4 +158,5 @@ div#carousel ~ span:hover {
 
 .groupe_filter .active {
 	background-color: lightblue;
+	color:  		#000;
 }

@@ -1,4 +1,4 @@
-window.$ = jQuery = require('jquery');
+//window.$ = jQuery = require('jquery');
 var iangle = 0;
 $(function () {
 	//init carousel
@@ -33,8 +33,10 @@ $(function () {
 
 		$("#content").find("#leftbar").html(newleftbar);
 		$("#content").find("#midbar").html(newmidbar);
-
+		$('.equalize').equalize({reset: true});
 	});
+
+	$('.equalize').equalize({reset: true});
 });
 
 //carousel
